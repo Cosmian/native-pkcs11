@@ -52,7 +52,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
-      - uses: EmbarkStudios/cargo-deny-action@64015a69ee7ee08f6c56455089cdaf6ad974fd15 # v1.6.1
+      - uses: EmbarkStudios/cargo-deny-action@3f4a782664881cf5725d0ffd23969fcce89fd868 # v1.6.3
 
   clippy:
     strategy:
